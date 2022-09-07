@@ -2169,6 +2169,23 @@ h1{
 .Comment-Box .form1-action {
   padding: 5%;
 }
+.box .form-label {
+  font-size: 1rem;
+  color: #717275;
+  margin-top: 10px;
+}
+.box .form-label {
+  font-size: 1rem;
+  color: #717275;
+  margin-top: 8px;
+}
+
+.special-menus .img-section h3 {
+  font-size: 2rem;
+  margin-top: 40px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
 }
 
 
