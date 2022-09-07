@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> crispy kitchen menu page</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="css1/style.css">
+  </head>
+  <body>
+<!-----------------------navigration starts--------------->
+<div class="container"  id="nav-section">
+  <div class="row">
+    <div class="col-lg-4  col-md-4  col-sm-4  col-xs-5">
+      <h1  class="heading"> crispy kitchen</h1>
+    </div>
+
+
+    <div class="col-lg-6   col-md-6   col-sm-6  col-xs-3">
+      <div id="navigation">
+        <div id="menu"  onclick="onClickMenu()">
+          <div id="bar1"  class="bar"></div>
+          <div id="bar2"  class="bar"></div>
+          <div id="bar3"  class="bar"></div>
+        </div>
+
+        <ul  class="nav"   id="nav">
+          <li><a  class="active" href="#"> Home </a></li>
+          <li><a href="story.html"> Story </a></li>
+          <li><a href="menu.html"> Menu</a></li>
+          <li><a href="news.html"> Our Updates</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+      <div class="col-lg-2    col-md-2   col-sm-2  col-xs-4">
+        <button class="open"> Reservation</button>
+        <div class="box">
+          <h3 class="mb-0">Reserve a table</h3>
+         <span class="fa fa-close   close"></span>  
+          <div class="form-action">
+            <div class="col-lg-6   col-md-6  col-sm-6 col-xs-6"> 
+              <label for="contact-name" class="form-label">Full Name</label>
+               <input type="text" name="name" id="contact-name" class="form-control" placeholder="Your Name" required="">
+               </div>
+               
+               <div class="col-lg-6  col-md-6  col-sm-6 col-xs-6"> 
+                <label for="contact-phone" class="form-label">Phone Number</label>
+                <input type="telephone" name="phone" id="contact-phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" class="form-control" placeholder="123-456-7890">
+                </div>
+                
+
+                 
+                <div class="col-lg-6  col-md-6  col-sm-6 col-xs-6">
+                  <label for="contact-email" class="form-label">Email</label>
+                  <input type="email" name="email" id="contact-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Your Email" required="">
+                  </div>
+        
+                  <div class="col-lg-6  col-md-6  col-sm-6 col-xs-6">
+                    <label for="contact-phone" class="form-label">Number of persons</label>
+                    <input type="number" name="number" id="contact-number" class="form-control" placeholder="12 persons" required="">
+                    </div>
+        
+                      <div class="col-lg-6  col-md-6  col-sm-6 col-xs-6">
+                        <label for="date-phone" class="form-label">Date</label>
+                        <input type="date" name="date" id="contact-date" class="form-control" placeholder="" required="">
+                        </div>
+                        
+                        <div class="col-lg-6  col-md-6  col-sm-6 col-xs-6"> 
+                          <label for="time" class="form-label">Time</label>
+                        <select class="form-select form-control" name="time" id="time">
+                          <option value="5" selected="">5:00 PM</option>
+                          <option value="6">6:00 PM</option>
+                          <option value="7">7:00 PM</option>
+                          <option value="8">8:00 PM</option>
+                          <option value="9">9:00 PM</option>
+                        </select>
+                        </div>
+                   
+                     <div class="col-lg-12  col-md-12  col-sm-12 col-xs-12"> 
+                     <label  for="Massege"  class="form-label">Special Request</label>
+                     <textarea class="form-control" rows="5" id="contact-message" name="commd" placeholder="Your Message" style="height: 100px;"></textarea>
+                  </div>
+  
+                <div class="col-lg-5  col-lg-offset-7">
+                <input type="Submit"  class="formbutton"> 
+                </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+   <!-----------------------navigration ends--------------->
+
+
+   <!--------------------menu section starts---------------->
+   <div class="menu"  id="Menu">
+       <div class="container">
+           <div class="row  text-center">
+               <div class="text-center">
+               <h3> Our Menus  </h3>
+              <p>  Perfect for all Breakfast, Lunch and Dinner </p>
+              </div>
+           </div>
+       </div>
+       </div>
+      
+    
+ <!--------------------menu section ends---------------->
+
+ <!----------------------Breakfast Menu  starts------------>
+ <div class="Breakfast-Menu">
+     <div class="container">
+         <div class="row">
+             <div class="col-12-lg">
+                 <h2>Breakfast Menu</h2>
+                 </div>
+            
+                      <div class="col-lg-4  col-md-4  col-sm-6  col-xs-12">
+                        <div class="img-section">
+                          <img src="images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg"  alt="">
+                          <h3>Fresh Start &nbsp;  &nbsp; <span>$24.50</span></h3>
+                          <p>  4.8/5  &nbsp;  &nbsp; <span class="fa fa-star"></span>  <span class="fa fa-star"></span>
+                             <span class="fa fa-star"></span>  <span class="fa fa-star"></span> <span class="fa fa-star-o"></span> <i class=" Reviews">  &nbsp;  &nbsp; 128 Reviews</i> </p>
+                             </div>
+                      </div>
+         
+                      <div class="col-lg-4   col-md-4  col-sm-6  col-xs-12">
+                        <div class="img-section"> 
+                         <img src="images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.jpg"  alt="">
+                         <h3>Baked Creamy &nbsp;  &nbsp; <span> $16.50t </span></h3>
+                         <p> 3/5 &nbsp;  &nbsp; <span class="fa fa-star"></span>  <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>  <span class="fa fa-star"></span> <span class="fa fa-star-o"></span> <i class=" Reviews">  &nbsp;  &nbsp; 64 Reviews</i> </p>
+                            </div>
+                     </div>
+         
+                     <div class="col-lg-4   col-md-4  col-sm-6  col-xs-12">
+                       <div class="img-section"> 
+                         <img src="images/breakfast/lucas-swennen-1W_MyJSRLuQ-unsplash.jpg"  alt="">
+                             <h3>Burger Set &nbsp;  &nbsp; <span>$24.50</span></h3>
+                         <p   id="fa-sta"> 3/5 &nbsp;  &nbsp; <span class="fa fa-star"></span>  <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>  <span class="fa fa-star"></span> <span class="fa fa-star-o"></span> <i class=" Reviews">  &nbsp;  &nbsp;32 Reviews</i> </p>
+                            </div>
+                            </div>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+     </div>
+
+     <!----------------------Breakfast Menu ends------------>
+
+
+
+
+
+      <!----------------------Lunch Menu  starts------------>
+ <div class="Breakfast-Menu"  id="lunch">
+  <div class="container">
+      <div class="row">
+          <div class="col-12-lg">
+              <h2>Lunch Menu</h2>
+              </div>
+         
+                   <div class="col-lg-6   col-md-6  col-sm-6  col-xs-12">
+                     <div class="img-section">
+                       <img src="images/lunch/louis-hansel-cH5IPjaAYyo-unsplash.jpg"  alt="">
+                       <h3>Super Steak Set &nbsp;  &nbsp; <span>$24.50</span></h3>
+                       <p>  4.8/5  &nbsp;  &nbsp; <span class="fa fa-star"></span>  <span class="fa fa-star"></span>
+                          <span class="fa fa-star"></span>  <span class="fa fa-star"></span> <span class="fa fa-star-o"></span> <i class=" Reviews">  &nbsp;  &nbsp; 66 Reviews</i> </p>
+                          </div>
+                   </div>
+      
+                   <div class="col-lg-6   col-md-6  col-sm-6  col-xs-12">
+                     <div class="img-section"> 
+                      <img src="images/lunch/louis-hansel-rheOvfxOlOA-unsplash.jpg"  alt="">
+                      <h3>Bread & Steak Set &nbsp;  &nbsp; <span> $16.50t </span></h3>
+                      <p> 3/5 &nbsp;  &nbsp; <span class="fa fa-star"></span>  <span class="fa fa-star"></span>
+                         <span class="fa fa-star"></span>  <span class="fa fa-star"></span> <span class="fa fa-star-o"></span> <i class=" Reviews">  &nbsp;  &nbsp; 84 Reviews</i> </p>
+                         </div>
+                  </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+  </div>
+  <!----------------------Lunch Menu  ends------------>
+
+
+  <!---------------------Dinner Menu starts------------>
+ <div class="Breakfast-Menu">
+  <div class="container">
+      <div class="row">
+          <div class="col-12-lg">
+              <h2>Dinner Menu</h2>
+              </div>
+         
+                   <div class="col-lg-4   col-md-4  col-sm-6  col-xs-12">
+                     <div class="img-section">
+                      <img src="images/dinner/farhad-ibrahimzade-ZipYER3NLhY-unsplash.jpg"  alt="">
+                       <h3>Seafood Set &nbsp;  &nbsp; <span>$65.50</span></h3>
+                       <p>  4.8/5  &nbsp;  &nbsp; <span class="fa fa-star"></span>  <span class="fa fa-star"></span>
+                          <span class="fa fa-star"></span>  <span class="fa fa-star"></span> <span class="fa fa-star-o"></span> <i class=" Reviews">  &nbsp;  &nbsp; 102 Reviews</i> </p>
+                          </div>
+                   </div>
+      
+                   <div class="col-lg-4    col-md-4  col-sm-6  col-xs-12">
+                     <div class="img-section"> 
+                      <img src="images/dinner/keriliwi-c3mFafsFz2w-unsplash.jpg"  alt="">
+                      <h3> Premium Steak&nbsp;  &nbsp; <span>$74.25 </span></h3>
+                      <p> 3/5 &nbsp;  &nbsp; <span class="fa fa-star"></span>  <span class="fa fa-star"></span>
+                         <span class="fa fa-star"></span>  <span class="fa fa-star"></span> <span class="fa fa-star-o"></span> <i class=" Reviews">  &nbsp;  &nbsp; 54 Reviews</i> </p>
+                         </div>
+                  </div>
+      
+                  <div class="col-lg-4   col-md-4  col-sm-6  col-xs-12">
+                    <div class="img-section"> 
+                      <img src="images/dinner/farhad-ibrahimzade-ZipYER3NLhY-unsplash.jpg"  alt="">
+                          <h3>Salmon Set &nbsp;  &nbsp; <span>$60</span></h3>
+                      <p  id="fa-sta"> 3/5 &nbsp;  &nbsp; <span class="fa fa-star"></span>  <span class="fa fa-star"></span>
+                         <span class="fa fa-star"></span>  <span class="fa fa-star"></span> <span class="fa fa-star-o"></span> <i class=" Reviews">  &nbsp;  &nbsp; 76 Reviews</i> </p>
+                         </div>
+                         </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+  </div>
+
+  <!----------------------Dinner Menu ends------------>
+
+  <!-------------------------footer section  starts-------->
+
+<div class="footer-section">
+  <div class="container">
+   <div class="row">
+     <div class="col-lg-12">
+      <h2>  Crispy Kitchen  </h2>
+     </div>
+     </div>
+      
+     <div class="row"> 
+     <div class="col-lg-4   col-md-4   col-sm-4  col-xs-6">
+       <div class="footer"> 
+     <h3> Location  </h3>
+     <li>  121 Einstein Loop N, Bronx, NY 10475, United States  </li>
+     <li><button class="mybutton"> Directions</button></li>
+     </div>
+     </div>
+  
+  
+     <div class="col-lg-4     col-md-4   col-sm-4  col-xs-6">
+       <div class="footer"> 
+      <h3>  Opening Hours  </h3>
+       <li> Monday - Friday  </li>
+        <li>10:00 AM - 08:00 PM  </li>
+        <li> Tel: 010-02-0340 </li>
+        </div>
+       </div>
+       
+  
+       
+       <div class="col-lg-4    col-md-4   col-sm-4  col-xs-12">
+        <div class="footer"  id="footer1"> 
+        <h3> Social</h3>
+         <li class="bottom"><span class="fa fa-twitter"></span> 
+          <span class="fa fa-facebook"></span>
+          <span class="fa fa-google-plus-square"></span>
+          <span class="fa fa-pinterest"> </span>
+        </li>
+          <li class="bottom"> Copyright © 2022 Crispy Kitchen Co., Ltd.
+            Design: Tooplate</li>
+         </div>
+         </div>
+   </div>
+  </div>
+  </div>
+  <!---------------------footer-section ends------------>
+  
+    
+ 
+  </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
