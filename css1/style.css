@@ -2071,10 +2071,23 @@ textarea{
 }
 
 .learning-section .detail-text h4,.learning-section .detail-text li,.learning-section .detail-text h5,.learning-section .details-box h5,.learning-section .details-box h3{
-    line-height: 25px;
+    line-height: 20px;
     font-size: 1.3rem;
 }
+.new-img h3 a {
+  font-size: 1.7rem;
+}
+.h2, h2 {
+  font-size: 25px;
+}
 
+.img-fluid .news-title-link a {
+  font-size: 1.8rem;
+  line-height: 40px;
+}
+.Breakfast-Menu .img-section h3 {
+  font-size: 2rem;
+}
 h1{
   font-size: 1.7rem;
   margin-top: 20px;
@@ -2152,6 +2165,10 @@ h1{
   font-size: 3rem;
   
 }
+
+.Comment-Box .form1-action {
+  padding: 5%;
+}
 }
 
 
@@ -2161,7 +2178,7 @@ h1{
   }
   
   .learning-section .detail-text h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 20px;
   }
 
@@ -2182,8 +2199,8 @@ h1{
   }
 
   .learning-section .detail-text h4,.learning-section .detail-text li,.learning-section .detail-text h5,.learning-section .details-box h5,.learning-section .details-box h3{
-    line-height: 25px;
-    font-size: 1rem;
+    line-height: 20px;
+    font-size: 1.2rem;
 }
 .websites-section .header-section .news {
   width: 120px;
@@ -2199,6 +2216,10 @@ h1{
 .Leave-message h3 {
   font-size: 1.5rem;
   margin-left: 2rem;
+}
+.img-fluid .news-title-link a {
+  font-size: 1.5rem;
+  line-height: 30px;
 }
   
   }
