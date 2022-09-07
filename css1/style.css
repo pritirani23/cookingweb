@@ -2028,7 +2028,179 @@ textarea{
   color: #000000;
   font-weight: 700;
 }
+
+.websites-section .header-section h4 {
+  font-size: 1.4rem;
+  line-height: 22px;
+}
+.websites-section {
+  padding: 8% 2%;
+}
+
+.websites-section .header-section h5 {
+  font-size: 1.4rem;
+  line-height: 22px;
+}
+}
+
+@media only screen and (max-width:500px){ 
+.learning-section .detail-text,.learning-section .details-box  {
+  padding: 0px 10px;
+}
+
+.learning-section .detail-text h2 {
+  font-size: 1.6rem;
+  line-height: 20px;
+}
+
+.learning-section .news-detail-image {
+  padding: 0px 20px;
+}
+
+.learning-section .text-center1 {
+  padding: 0px 10px;
+}
+
+.open{
+  position: relative;
+  right: 30px;
+  top: -10px;
+  width: 120px;
+  height: 50px;
+  font-size: 1.4rem;
+}
+
+.learning-section .detail-text h4,.learning-section .detail-text li,.learning-section .detail-text h5,.learning-section .details-box h5,.learning-section .details-box h3{
+    line-height: 25px;
+    font-size: 1.3rem;
+}
+
+h1{
+  font-size: 1.7rem;
+  margin-top: 20px;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+
+.learning-section .details-box h4 {
+  line-height: 28px;
+  font-size: 1.6rem;
+}
+
+#menu {
+  width: 30px;
+  height: 35px;
+  margin: 30px 0 10px 10px;
+}
+
+.section-padding .header-section {
+  margin-left: 20px;
+}
+
+.section-padding .header-section .form-control {
+  margin-left: 40px;
+}
+.learning-section h2 {
+  font-size: 2rem;
+  
+}
+
+.websites-section .header-section h2 {
+  font-size: 1.5rem;
+  line-height: 20px;
+}
+
+.websites-section .header-section h4 {
+  font-size: 1.4rem;
+  line-height: 22px;
+}
+
+.websites-section .header-section h5 {
+  font-size: 1.4rem;
+  line-height: 22px;
+}
+
+.Breakfast-Menu h2, .special-menus h2 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-size: 3rem;
+}
+
+.Leave-message h3 {
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+
+.map-section h2 {
+  font-size: 2rem;
+  line-height: 25px;
+  margin-bottom: 40px;
+}
+
+.Leave-message .form-label {
+  font-size: 1.3rem;
+}
+
+.Leave-message .weekdays h2 {
+  font-size: 2rem;
+}
+
+.Leave-message .weekdays h4 {
+  font-size: 2rem;
+}
+.latest-section h2, .News-Events h2 {
+  font-size: 3rem;
+  
+}
 }
 
 
+@media only screen and (max-width:360px){ 
+  .learning-section .detail-text,.learning-section .details-box  {
+    padding: 0px 15px;
+  }
+  
+  .learning-section .detail-text h2 {
+    font-size: 1.5rem;
+    line-height: 20px;
+  }
+
+  .websites-section .header-section h2 {
+    font-size: 1rem;
+    line-height: 11px;
+}
+
+  .Breakfast-Menu h2, .special-menus h2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 2rem;
+  }
+
+  .learning-section .details-box h4 {
+    line-height: 20px;
+    font-size: 1rem;
+  }
+
+  .learning-section .detail-text h4,.learning-section .detail-text li,.learning-section .detail-text h5,.learning-section .details-box h5,.learning-section .details-box h3{
+    line-height: 25px;
+    font-size: 1rem;
+}
+.websites-section .header-section .news {
+  width: 120px;
+  font-size: 1rem;
+}
+
+.websites-section .header-section .say {
+  width: 80px;
+  font-size: 1.4rem;
+  
+}
+
+.Leave-message h3 {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}
+  
+  }
+  
 
